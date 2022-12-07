@@ -1,8 +1,18 @@
 # Pinball
 <img src="Pinball Logo.png"></img>
 <br>
-This is a 3rd Semester Fun Project that i have been developing. It is a Pinball where you can define the playground by yourself. Unfortunally it is not that stable at the moment...
-Also the menu background video file was to large to upload to github. However you can just replace it with any video file you want, name it "menu.mov" and out it in the
-data folder. It will be read from there. But make sure to make it as short as possible(maybe 5-10 seconds) so Processing runs smoother when playing back.
+This is a 3rd Semester Fun Project that i have been developing. It is a Pinball Game where you can define the playground by yourself. Unfortunally it is not that stable at the moment but i come back to it and update it with fun stuff from time to time.
 
-> Download the file and open in Processing IDE. Make sure to install the imported dependencies at the top of the main file and to paste in your menu.mov file else an error will be thrown by Processing.
+
+> Download the project and open in Processing IDE. 
+
+```console
+Dependencies:
+- processing.video
+- ddf.minim
+- shiffman.box2d
+- org.jbox2d
+- (java.io.File)
+```
+
+> current operating version: v2.6
